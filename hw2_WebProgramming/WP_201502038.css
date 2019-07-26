@@ -1,0 +1,63 @@
+.button {
+  color: gray;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+}
+table {
+  margin-top: 30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+  max-width: 40px;
+}
+
+.table_head {
+  height: 20px;
+}
+
+.table_body {
+  height: 300px;
+}
+
+.table_left {
+  background-color: peachpuff;
+}
+
+.table_right {
+  background-color: #CCEEFF;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+.content{
+  text-indent: 1000px;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  height: 190px;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+.close{
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
